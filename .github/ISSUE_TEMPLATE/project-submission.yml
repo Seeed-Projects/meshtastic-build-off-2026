@@ -1,0 +1,43 @@
+name: Project submission
+description: Submit a Meshtastic Build-Off 2026 project for review.
+title: "[Submission]: "
+labels:
+  - submission
+body:
+  - type: input
+    id: project-name
+    attributes:
+      label: Project name
+      description: The public name of the project.
+      placeholder: Solar relay node
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Describe what the project does and why it is useful.
+    validations:
+      required: true
+  - type: textarea
+    id: hardware
+    attributes:
+      label: Hardware
+      description: List boards, radios, sensors, power system, enclosure, and other major parts.
+    validations:
+      required: true
+  - type: textarea
+    id: software
+    attributes:
+      label: Firmware or software
+      description: Link firmware, configuration, scripts, apps, dashboards, or related repositories.
+  - type: textarea
+    id: media
+    attributes:
+      label: Photos or demo
+      description: Add links to photos, video, field test notes, or screenshots.
+  - type: textarea
+    id: reuse
+    attributes:
+      label: License and reuse notes
+      description: Explain what others may reuse and any third-party licenses.
