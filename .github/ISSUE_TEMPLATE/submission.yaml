@@ -1,0 +1,54 @@
+name: Project Submission
+description: Submit your Meshtastic Build-Off 2026 project
+title: "[Submission] "
+labels: ["submission"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Your Name
+      placeholder: John Doe
+    validations:
+      required: true
+  - type: input
+    id: email
+    attributes:
+      label: Email
+      placeholder: john@example.com
+    validations:
+      required: true
+  - type: input
+    id: phone
+    attributes:
+      label: Phone Number
+      placeholder: +1-555-123-4567
+    validations:
+      required: true
+  - type: input
+    id: github_repo
+    attributes:
+      label: GitHub Repository Link
+      placeholder: https://github.com/username/project-repo
+    validations:
+      required: true
+  - type: textarea
+    id: project_description
+    attributes:
+      label: Project Description
+      placeholder: Describe your project here
+    validations:
+      required: true
+  - type: textarea
+    id: tech_stack
+    attributes:
+      label: Tech Stack
+      placeholder: "- Python\n- React\n- Node.js"
+    validations:
+      required: true
+  - type: textarea
+    id: additional_message
+    attributes:
+      label: Message to the Organizers
+      placeholder: Tell us anything special
+    validations:
+      required: false
