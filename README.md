@@ -43,7 +43,7 @@ The only requirement: Your project must involve Meshtastic in a meaningful way.
 3. Your submission becomes a GitHub Issue—visible to all participants and judges
 
 ### Option 2: Direct GitHub Issue
-Create a [new GitHub Issue](../../issues/new?template=submission.yaml) using our submission template.
+Create a new GitHub Issue using our submission template.
 
 ---
 
