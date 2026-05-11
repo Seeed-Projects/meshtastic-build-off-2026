@@ -11,20 +11,6 @@ body:
     validations:
       required: true
   - type: input
-    id: email
-    attributes:
-      label: Email
-      placeholder: john@example.com
-    validations:
-      required: true
-  - type: input
-    id: phone
-    attributes:
-      label: Phone Number
-      placeholder: +1-555-123-4567
-    validations:
-      required: true
-  - type: input
     id: github_repo
     attributes:
       label: GitHub Repository Link
