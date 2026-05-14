@@ -21,15 +21,21 @@ Whether you're enhancing communication protocols, building practical application
 
 ---
 
+## 🏆 Winners Announcement
+
+The official announcement will be made on August 15th. Please stay tuned.
+
+---
+
 ## 🎯 What We're Looking For
 
 We welcome projects across all categories:
 
-- **Communication Apps** — Chat clients, messaging platforms, emergency systems
-- **Hardware Hacks** — Custom devices, antennas, solar-powered nodes, gateways
-- **Software Tools** — Network monitoring, analytics, deployment utilities, SDK extensions
-- **Educational Content** — Tutorials, documentation, courses, open-source guides
-- **Creative Uses** — Art projects, research applications, novel use cases
+- Everyday carry node
+- Solar-powered repeater
+- Development board/kit
+- Mesh gateway
+- ... or build something entirely new
 
 The only requirement: Your project must involve Meshtastic in a meaningful way.
 
@@ -38,9 +44,10 @@ The only requirement: Your project must involve Meshtastic in a meaningful way.
 ## 📝 How to Submit
 
 ### Option 1: Quick Submission
-1. Click **[Submit Your Project](../../issues/new?template=submission.yaml&title=[Submission]%20Your%20Project%20Name)** button on the competition page
-2. Fill in the form with your project details
-3. Your submission becomes a GitHub Issue—visible to all participants and judges
+1. Create your own repository file and make sure it is public.
+2. Click **[Submit Your Project](../../issues/new?template=submission.yaml&title=[Submission]%20Your%20Project%20Name)** button on the competition page.
+3. Fill in the form with your project details.
+4. Your submission becomes a GitHub Issue—visible to all participants and judges.
 
 ### Option 2: Direct GitHub Issue
 Create a new GitHub Issue using our submission template.
@@ -66,6 +73,20 @@ When you submit, prepare:
 - Key features & use cases
 - Technologies & dependencies
 - How it uses Meshtastic
+
+---
+
+## ☑ Existing Public Links
+
+Below is the form for successful registration and submission of the link. Let's see what everyone is doing!
+
+| Num | Links |
+|-----|-------|
+| 1 | |
+| 2 | |
+| 3 | |
+| 4 | |
+| ... | ... |
 
 ---
 
@@ -120,7 +141,6 @@ All submissions are tracked as [GitHub Issues](../../issues?q=label%3Asubmission
 - You must have **rights** to all code & assets you submit
 - Projects can be **solo or team-based** (no team size limit)
 - Submissions must be your **original work** (reusing open-source libraries is fine)
-- Be **respectful & inclusive** — read our [Code of Conduct](#)
 
 Violations of these rules will result in disqualification.
 
