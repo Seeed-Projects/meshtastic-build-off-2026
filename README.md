@@ -54,6 +54,7 @@ When you submit, prepare:
 | Field | Required | Details |
 |-------|----------|---------|
 | **Your Name** | Yes | Full name or team name |
+| **Email** | Yes | For contact & winner notification |
 | **GitHub Repository Link** | Yes | Public repo with your project code |
 | **Project Description** | Yes | Brief overview & key features (200+ characters) |
 | **Tech Stack** | Yes | Languages, frameworks, libraries used |

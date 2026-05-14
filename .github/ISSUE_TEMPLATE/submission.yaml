@@ -11,6 +11,13 @@ body:
     validations:
       required: true
   - type: input
+    id: email
+    attributes:
+      label: Email
+      placeholder: john@example.com
+    validations:
+      required: true
+  - type: input
     id: github_repo
     attributes:
       label: GitHub Repository Link
