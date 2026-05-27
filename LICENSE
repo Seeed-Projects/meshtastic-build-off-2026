@@ -1,6 +1,16 @@
-MIT License
+# License
 
-Copyright (c) 2026 hack-embed
+Copyright (c) 2026 hack-embed. All rights reserved.
+
+This project consists of multiple components, each governed by a separate license
+as described below. Where components overlap or are combined, the more restrictive
+license applies unless otherwise stated in writing by the copyright holder.
+
+---
+
+## 1. Software (Firmware, Scripts, and Source Code)
+
+MIT License
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +29,114 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+## 2. Hardware Design Files (Schematics, PCB Layouts, Gerbers, BOM, CAD/3D Files)
+
+CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S v2)
+
+Copyright (c) 2026 hack-embed
+
+These hardware design files are licensed under the CERN-OHL-S v2.
+You may redistribute and modify these files and make products based on them
+under the terms of the CERN-OHL-S v2 (https://ohwr.org/cern_ohl_s_v2.txt).
+
+This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY,
+INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A
+PARTICULAR PURPOSE. Please see the CERN-OHL-S v2 for applicable conditions.
+
+Source location: [https://github.com/hack-embed]
+
+As per CERN-OHL-S v2 Section 4, should you produce hardware based on these
+design files, you must make the complete corresponding source available under
+CERN-OHL-S v2, and you must prominently notice that the hardware was produced
+from this source.
+
+---
+
+## 3. Documentation, Creative Content, and Media
+(README, images, diagrams, written descriptions, demo videos)
+
+Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+
+Copyright (c) 2026 hack-embed
+
+You are free to:
+  - Share: copy and redistribute the material in any medium or format
+  - Adapt: remix, transform, and build upon the material for any purpose,
+    even commercially
+
+Under the following terms:
+  - Attribution: You must give appropriate credit to hack-embed, provide a
+    link to the license, and indicate if changes were made. You may not
+    suggest the endorser endorses you or your use.
+  - ShareAlike: If you remix, transform, or build upon the material, you must
+    distribute your contributions under the same CC BY-SA 4.0 license.
+
+Full license text: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+---
+
+## 4. Competition Entry and Intellectual Property Terms
+
+4.1 Ownership
+
+All intellectual property rights in this project, including but not limited to
+copyright, design rights, and moral rights, are and shall remain exclusively
+owned by hack-embed (the "Author"). Submission of this work to the
+Meshtastic Build-Off 2026 or any other competition does not constitute a
+transfer or assignment of any intellectual property rights to any organizer,
+sponsor, platform, or third party.
+
+4.2 Organizer Usage Rights
+
+Any competition organizer, sponsor, or affiliated party ("Organizer") who
+receives, hosts, or reviews this submission is granted a limited,
+non-exclusive, non-transferable, royalty-free license to:
+
+  (a) Display, reproduce, and reference this project solely for the purpose
+      of promoting the competition itself (e.g., showcasing entries,
+      announcing results, publishing a winner list);
+  (b) Use the project name, a brief description, and non-commercial
+      promotional media directly associated with the competition.
+
+4.3 Restrictions on Organizer Use
+
+The Organizer may NOT, without prior explicit written consent from the Author:
+
+  (a) Use this project or any portion of it for any commercial purpose,
+      including but not limited to product sales, paid services, revenue-
+      generating advertising, or sponsored content;
+  (b) Sublicense, sell, or transfer usage rights to any third party;
+  (c) Incorporate this project into any product, service, or offering that
+      generates direct or indirect revenue;
+  (d) Use the Author's name, likeness, or work in any paid promotional
+      campaign, commercial partnership, or endorsement context.
+
+4.4 Moral Rights
+
+The Author asserts their moral rights to be identified as the creator of this
+work in all uses permitted under this license. Any permitted use must credit
+hack-embed as the original author.
+
+4.5 No Implied License
+
+Nothing in this document shall be construed as granting any rights beyond
+those expressly stated. All rights not expressly granted are reserved by the
+Author.
+
+---
+
+## Summary
+
+| Component              | License          | Commercial use by others | ShareAlike required |
+|------------------------|------------------|--------------------------|---------------------|
+| Software / Firmware    | MIT              | Yes (with attribution)   | No                  |
+| Hardware Design Files  | CERN-OHL-S v2    | Yes (reciprocal)         | Yes                 |
+| Documentation / Media  | CC BY-SA 4.0     | Yes (with attribution)   | Yes                 |
+| Competition IP Rights  | Section 4 above  | Author consent required  | N/A                 |
+
+---
+
+For permissions beyond the scope of this license, contact: [your contact info]
