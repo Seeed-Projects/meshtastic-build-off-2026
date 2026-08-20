@@ -23,7 +23,37 @@ Whether you're enhancing communication protocols, building practical application
 
 ## 🏆 Winners Announcement
 
-The official announcement will be made on August 15th. Please stay tuned.
+Meshtastic Build-Off 2026 has officially concluded.
+
+Thank you to every builder, reviewer and community member who contributed their time, creativity and technical insight to this competition. Across the completed entries, we saw projects exploring off-grid tracking, standalone communication, repeaters, monitoring systems and new ways to make mesh networking more useful in the real world.
+
+After reviewing Meshtastic implementation, device functionality, hardware and enclosure execution, practical value, documentation and optional features, we are proud to announce the two winning projects:
+
+### 🥇 LIA by J. G. Aguado
+
+LIA - A Meshtastic-based Pet Tracking System is an open, off-grid tracker that turns Meshtastic into a practical location and status-reporting device.
+
+LIA combines a Wio-SX1262 radio module with a custom ESP32-S3-based board, GNSS, motion sensing, battery monitoring, charging control and purpose-built enclosure designs. It stood out because the project was developed as a complete product system rather than a radio demonstration. The repository documents hardware design, manufacturing files, enclosure iterations, firmware behavior and the corrections made during development.
+
+The project also provides evidence across the full operating path, including mesh communication, GNSS positioning, charging behavior and automatic sleep and wake cycles. This combination of practical use, complete execution and transparent engineering documentation made LIA a strong reference design for future Meshtastic trackers.
+
+[Project repository](https://github.com/JGAguado/LIA)
+
+Read the winner story on Seeed Studio Blog
+
+### 🥇 RetroMeshDevice by My Embedded Stuff
+
+RetroMeshDevice is a phone-free Meshtastic handheld designed around a small OLED display, a T9-style keypad, a rotary control and a Wio-SX1262 radio module.
+
+The project treats the device itself as the communication interface. Instead of assuming that users will always rely on a smartphone, it creates a compact handheld for composing, reading and navigating messages directly on the device.
+
+RetroMeshDevice earned recognition for both its coherent product idea and its unusually open development process. The author documented the schematic, PCB assembly, first-board corrections, hardware validation firmware, power measurements and firmware integration. The work also includes a proposed MCP23017 keypad-driver contribution for the Meshtastic firmware project, extending its value beyond one standalone build.
+
+[Project repository](https://github.com/myembeddedstuff/RetroMeshDevice)
+
+Read the winner story on Seeed Studio Blog
+
+Congratulations again to J. G. Aguado and My Embedded Stuff, and thank you to every participant for helping move the Meshtastic maker community forward.
 
 ---
 
